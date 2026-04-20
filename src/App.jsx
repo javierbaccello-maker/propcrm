@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { supabase } from "./supabase";
 
-const ML_APP_ID      = "7320420630289855";
+const ML_APP_ID      = "1643821011509456";
 const ML_REDIRECT    = "https://propcrm-gamma.vercel.app/";
 const ML_AUTH_URL    = "https://auth.mercadolibre.com.ar/authorization?response_type=code&client_id=" + ML_APP_ID + "&redirect_uri=" + encodeURIComponent(ML_REDIRECT);
 
